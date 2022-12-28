@@ -13,6 +13,13 @@ public class Hw6 {
         b = a.substring(0, a.length() - b.length());
         a = a.substring(b.length());
         System.out.println("After : " + a + " " + b);
-
+        System.out.println("-------------------");// another way
+        String str1="Python";
+        String str2="Java";
+       str1=str1 + str2;
+       str2=str1.replace(str2,"");
+       str1=str1.replace(str2,"");
+        System.out.println(str1);
+        System.out.println(str2);
     }
 }

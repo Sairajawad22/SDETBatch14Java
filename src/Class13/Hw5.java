@@ -6,11 +6,10 @@ public class Hw5 {
         How would you check if String is palindrome or not? aba=> true Abbc =>false
 
          */
-        String myString = "bob";
-        StringBuffer buffer = new StringBuffer(myString);
-        buffer.reverse();
-        String name = buffer.toString();
-        if(myString.equals(name)){
+        String str = "bob";
+        StringBuilder stringBuilder = new StringBuilder(str);
+        stringBuilder.reverse();
+        if(stringBuilder.toString().equals(str)){
             System.out.println("Given String is palindrome");
         } else {
             System.out.println("Given String is not palindrome");

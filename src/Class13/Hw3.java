@@ -8,7 +8,9 @@ public class Hw3 {
       */
         String a ="Is it saturday? Is it raining?Do we have a Java Class today?";
         String [] arr=a .split("[?]");
-        System.out.println("The number of the sentences are "+arr.length);
+
+        System.out.println("The number of the sentences are "+arr.length);// whenever we called the length from array we
+        // we don't use () length method only length property
 
     }
 }
